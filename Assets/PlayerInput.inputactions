@@ -1,0 +1,74 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "PlayerAction",
+            "id": "ddf75524-06eb-4831-b331-09be2a60555c",
+            "actions": [
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "d6de46e9-4a02-4712-b5f7-237a2ae74c73",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "a294d591-712c-4123-b09e-45ab33d3d126",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "4ce8f111-8c53-4cf9-8fb4-b84394a34b6a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aadde22d-efe5-4005-b9e0-48911797cb61",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c0c18b84-d0ef-4348-8e7f-ca5f3cf980df",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9c79795-0739-4350-adc9-9e69788d419c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
